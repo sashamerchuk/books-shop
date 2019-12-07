@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Checkout | E-Shopper</title>
+    <title>Замовлення</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -21,7 +21,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	<link rel = "stylesheet" href="css/checkout.css">
 </head><!--/head-->
 
 <body>
@@ -54,8 +55,8 @@
 					<div class="col-md-8 clearfix">
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">							
-								<li><a href="contact-us.html"><i class="fa fa-crosshairs"></i> Contact</a></li>
-								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>				
+								<li><a href="contact-us.html"><i class="fa fa-crosshairs"></i>Контактна інформація</a></li>
+								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i>Корзина</a></li>				
 							</ul>
 						</div>
 					</div>
@@ -77,9 +78,9 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html">Головна</a></li>
 												
-								<li><a href="contact-us.html">Contact</a></li>
+								<li><a href="contact-us.html">Контактна інформація</a></li>
 							</ul>
 						</div>
 					</div>
@@ -91,16 +92,11 @@
 
 	<section id="cart_items">
 		<div class="container">
-
-			<div class="register-req">
-				<p>Please use Register And Checkout to easily get access to your order history, or use Checkout as Guest</p>
-			</div><!--/register-req-->
-
 			<div class="shopper-informations">
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="shopper-info">
-							<p>Shopper Information</p>
+							<p>Інформація про покупця</p>
 							<form>
 								
 								<input type="text" placeholder="User Name">
@@ -108,14 +104,14 @@
 								<input type="text" placeholder="Phone">
 								<input type="text" placeholder="Address">
 							</form>
-							<a class="btn btn-primary" href="">Get Quotes</a>
-							<a class="btn btn-primary" href="">Continue</a>
+							<a class="btn btn-primary" href="">Надіслати</a>
 						</div>
 					</div>
 					<div class="col-sm-8">
 						<div class="order-message">
-							<p>Shipping Order</p>
-							<textarea name="message"  placeholder="Notes about your order, Special Notes for Delivery" rows="16"></textarea>
+							<p>Доставка</p>
+							<textarea name="message"  placeholder="
+							Примітки про ваше замовлення, день, година..." rows="16"></textarea>
 						</div>	
 					</div>	
 
@@ -127,18 +123,18 @@
 				<table class="table table-condensed">
 					<thead>
 						<tr class="cart_menu">
-							<td class="image">Book</td>
+							<td class="image">Книга</td>
 							
-							<td class="price">Price</td>
-							<td class="quantity">Quantity</td>
-							<td class="total">Total</td>
+							<td class="price">Ціна</td>
+							<td class="quantity">Кількість</td>
+							<td class="total">Всього</td>
 							<td></td>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td class="cart_product">
-								<a href=""><img src="images/cart/book1.jpg" alt=""></a>
+								<a href=""><img src="images/cart/book1.jpg" class="foto" alt=""></a>
 							</td>
 							<td class="cart_price">
 								<p>$59</p>
@@ -162,20 +158,15 @@
 							<td colspan="2">
 								<table class="table table-condensed total-result">
 									<tr>
-										<td>Cart Sub Total</td>
-										<td>$59</td>
+										<td>Ціна</td>
+										<td>239₴</td>
 									</tr>
 									<tr>
-										<td>Exo Tax</td>
-										<td>$2</td>
+										<td>Доставка</td>
+										<td>50₴</td>
 									</tr>
-									<tr class="shipping-cost">
-										<td>Shipping Cost</td>
-										<td>Free</td>										
-									</tr>
-									<tr>
-										<td>Total</td>
-										<td><span>$61</span></td>
+										<td>Разом</td>
+										<td><span>289₴</span></td>
 									</tr>
 								</table>
 							</td>
@@ -183,18 +174,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="payment-options">
-					<span>
-						<label><input type="checkbox"> Direct Bank Transfer</label>
-					</span>
-					<span>
-						<label><input type="checkbox"> Check Payment</label>
-					</span>
-					<span>
-						<label><input type="checkbox"> Paypal</label>
-					</span>
-				</div>
-		</div>
+			
 	</section> <!--/#cart_items-->
 
 	

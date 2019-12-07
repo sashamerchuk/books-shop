@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Cart</title>
+    <title>Корзина</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -23,6 +23,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 	<link rel="stylesheet" href = "css/cart.css">
+
 </head><!--/head-->
 
 <body>
@@ -59,8 +60,8 @@
 					<div class="col-md-8 clearfix">
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><a href="contact-us.html"><i class="fa fa-lock"></i> Contact</a></li>
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Замовлення</a></li>
+								<li><a href="contact-us.html"><i class="fa fa-lock"></i> Контактна інформація</a></li>
 							</ul>
 						</div>
 					</div>
@@ -82,17 +83,13 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html">Home</a></li>
-								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+								<li><a href="index.html">Головна</a></li>
+								<li class="dropdown"><a href="#">Магазин<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="shop.html">Products</a></li>
-										<li><a href="product-details.html">Product Details</a></li> 
-										<li><a href="checkout.html">Checkout</a></li> 
-										<li><a href="cart.html" class="active">Cart</a></li> 
-										<li><a href="login.html">Login</a></li> 
+										<li><a href="checkout.html">Замовлення</a></li> 
                                     </ul>
                                 </li>
-								<li><a href="contact-us.html">Contact</a></li>
+								<li><a href="contact-us.html">Контактна інформація</a></li>
 							</ul>
 						</div>
 					</div>
@@ -104,32 +101,25 @@
 
 	<section id="cart_items">
 		<div class="container">
-			<div class="breadcrumbs">
-				<ol class="breadcrumb">
-				  <li><a href="#">Home</a></li>
-				  <li class="active">Shopping Cart</li>
-				</ol>
-			</div>
 			<div class="table-responsive cart_info">
 				<table class="table table-condensed">
 					<thead>
 						<tr class="cart_menu">
-							<td class="image">Item</td>
-
-							<td class="price">Price</td>
-							<td class="quantity">Quantity</td>
-							<td class="total">Total</td>
+							<td class="image">Книга</td>
+							<td class="price">Ціна</td>
+							<td class="quantity">Кількість</td>
+							<td class="total">Разом</td>
 							<td></td>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td class="cart_product">
-								<a href=""><img src="images/cart/book1.jpg" alt=""></a>
+								<a href=""><img src="images/cart/book1.jpg" class="foto" alt=""></a>
 							</td>
 
 							<td class="cart_price">
-								<p>$59</p>
+								<p>239₴</p>
 							</td>
 							<td class="cart_quantity">
 								<div class="cart_quantity_button">
@@ -139,7 +129,7 @@
 								</div>
 							</td>
 							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
+								<p class="cart_total_price">239₴</p>
 							</td>
 							<td class="cart_delete">
 								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
@@ -159,13 +149,12 @@
 				<div class="col-sm-12">
 					<div class="total_area">
 						<ul>
-							<li>Cart Sub Total <span>$59</span></li>
-							<li>Eco Tax <span>$2</span></li>
-							<li>Shipping Cost <span>Free</span></li>
-							<li>Total <span>$61</span></li>
+							<li>Ціна<span>239₴</span></li>
+							<li>Доставка <span>50₴</span></li>
+							<li>Разом <span>289₴</span></li>
 						</ul>
-							<a class="btn btn-default update" href="checkout.html">Buy</a>
-							<a class="btn btn-default check_out" href="">Check Out</a>
+							<a class="btn btn-default update" href="checkout.html">Купити</a>
+							<a class="btn btn-default check_out" href="">Видалити</a>
 					</div>
 				</div>
 			</div>
