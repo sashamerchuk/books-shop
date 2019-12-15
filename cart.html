@@ -13,15 +13,6 @@
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 	<link rel="stylesheet" href = "css/cart.css">
 
 </head><!--/head-->
@@ -60,7 +51,6 @@
 					<div class="col-md-8 clearfix">
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Замовлення</a></li>
 								<li><a href="contact-us.html"><i class="fa fa-lock"></i> Контактна інформація</a></li>
 							</ul>
 						</div>
@@ -107,36 +97,14 @@
 						<tr class="cart_menu">
 							<td class="image">Книга</td>
 							<td class="price">Ціна</td>
-							<td class="quantity">Кількість</td>
-							<td class="total">Разом</td>
+							<td class="total"></td>
 							<td></td>
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td class="cart_product">
-								<a href=""><img src="images/cart/book1.jpg" class="foto" alt=""></a>
-							</td>
 
-							<td class="cart_price">
-								<p>239₴</p>
-							</td>
-							<td class="cart_quantity">
-								<div class="cart_quantity_button">
-									<a class="cart_quantity_up" href=""> + </a>
-									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
-									<a class="cart_quantity_down" href=""> - </a>
-								</div>
-							</td>
-							<td class="cart_total">
-								<p class="cart_total_price">239₴</p>
-							</td>
-							<td class="cart_delete">
-								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-							</td>
-						</tr>
 
-						
+
 					</tbody>
 				</table>
 			</div>
@@ -149,23 +117,55 @@
 				<div class="col-sm-12">
 					<div class="total_area">
 						<ul>
-							<li>Ціна<span>239₴</span></li>
-							<li>Доставка <span>50₴</span></li>
-							<li>Разом <span>289₴</span></li>
+							<li>Ціна<span class="priceBook"></span></li>
+							<li>Доставка <span class="delivery">50</span></li>
+							<li>Разом <span class="allPrice"></span></li>
 						</ul>
-							<a class="btn btn-default update" href="checkout.html">Купити</a>
-							<a class="btn btn-default check_out" href="">Видалити</a>
+							<button type="button" class="btn btn-default update" data-toggle="modal" data-target="#myModal">Купити</button>
+
+
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<h4 class="modal-title" id="myModalLabel">Замовлення</h4>
+									</div>
+									<div class="modal-body">
+										<p>Інформація про покупця</p>
+										<div>
+											<input type="text" id="name" placeholder="Ім'я"/>
+										</div>
+										<div>
+											<input type="text" id="surname" placeholder="Прізвище"/>
+										</div>
+										<div>
+											<input type="text" id="email" placeholder="Email"/>
+										</div>
+										<div>
+											<input type="text" id="number" placeholder="Телефон"/>
+										</div>
+										<div>
+											<input type="text" id="adress" placeholder="Адреса"/>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+										<button type="button" class="btn btn-primary" id="orderBook">Замовити</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section><!--/#do_action-->
-
-	
+	</section>
+	<script src="js/cart-order.js"></script>
+	<script src="js/cart.js"></script>
     <script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-	<script src="js/main.js"></script>
 </body>
 </html>

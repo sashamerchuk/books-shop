@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2c3e558-c8b6-46f9-85e4-c2c9a97a7523" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UfrhAOVWHeTLKqj5o5nrc0SbS1" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sashamerchuk.github.io" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\eshopper\js" />
+      <recent name="C:\Users\User\Desktop\eshopper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2c3e558-c8b6-46f9-85e4-c2c9a97a7523" name="Default Changelist" comment="" />
+      <created>1575758606661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575758606661</updated>
+      <workItem from="1575758607985" duration="1994000" />
+      <workItem from="1575798486761" duration="3170000" />
+      <workItem from="1575821731992" duration="8942000" />
+      <workItem from="1575832251368" duration="12067000" />
+      <workItem from="1575845908660" duration="40000" />
+      <workItem from="1575845971920" duration="5724000" />
+      <workItem from="1575890912144" duration="20000" />
+      <workItem from="1575902706045" duration="3853000" />
+      <workItem from="1575908227583" duration="26000" />
+      <workItem from="1575909235197" duration="22827000" />
+      <workItem from="1575936095534" duration="18000" />
+      <workItem from="1575936465422" duration="3129000" />
+      <workItem from="1575965385732" duration="4106000" />
+      <workItem from="1576018819711" duration="7736000" />
+      <workItem from="1576026784057" duration="1525000" />
+      <workItem from="1576076243546" duration="25804000" />
+      <workItem from="1576143705289" duration="266000" />
+      <workItem from="1576268440127" duration="721000" />
+      <workItem from="1576318355782" duration="21579000" />
+      <workItem from="1576347120526" duration="4562000" />
+      <workItem from="1576407963712" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

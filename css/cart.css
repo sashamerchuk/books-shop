@@ -1,3 +1,15 @@
 .foto{
     width:40% !important;
 }
+.modal-body{
+    margin:5%;
+}
+.modal-body div{
+    margin-bottom: 3%;
+}
+.modal-body div input{
+    width:200px;
+}
+.modal{
+    text-align: center;
+}

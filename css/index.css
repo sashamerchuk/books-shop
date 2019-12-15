@@ -1,3 +1,16 @@
 .foto{
     width:70% !important;
 }
+#input{
+    display:none;
+}
+textarea{
+    margin-bottom:11%;
+}
+.fotoBook{
+    width:30%;
+}
+.orders{
+    margin: 0 auto;
+    width:40%;
+}

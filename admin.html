@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Книжковий магазин</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head><!--/head-->
+
+<body>
+<header id="header"><!--header-->
+    <div class="header_top"><!--header_top-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contactinfo">
+                        <ul class="nav nav-pills">
+                            <li><a href="#"><i class="fa fa-phone"></i> +380967098254</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i> sashamerchuk16@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div><!--/header_top-->
+
+    <div class="header-middle"><!--header-middle-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 clearfix">
+                    <div class="logo pull-left">
+                        <a href="index.html"><img src="images/home/bookshoplogo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-md-8 clearfix">
+                    <div class="shop-menu clearfix pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Замовлення</a></li>
+                            <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Корзина</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/header-middle-->
+</header>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    <div class="panel-group category-products" id="accordian"><!--category-productsr-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <input id="input" type="file" name="newsImage" accept="/image/*">
+                                    <label for="input"><img src="https://img.icons8.com/ios-glyphs/30/000000/add-image.png"></label>
+                                    <button id="addImageButton"  class="input btn btn-secondary pl-5 pr-5" type="button">Add Image</button>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/category-products-->
+
+                <div class="brands_products"><!--brands_products-->
+                    <div class="brands-name">
+                        <button id="sendBookButton"  class="input btn btn-secondary pl-5 pr-5" type="button">Send Book</button>
+                    </div>
+                </div><!--/brands_products-->
+            </div>
+
+
+            <div class="col-sm-9 padding-right">
+
+
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center" id="2">
+                                    <img src="images/home/bombardir_178_300_300.jpg" id="uploadedImage" class="foto" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center" id="3">
+                                <textarea id="nameBook">Enter the name Book</textarea>
+                                    <textarea id="price">Enter price</textarea>
+                                    <textarea id="author">Enter Author</textarea>
+                                    <textarea id="idBook">Enter the  id Book</textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="order">
+    <div class="flexParent">
+
+    <div class="flexChild">Name</div>
+    <div class="flexChild">Email</div>
+    <div class="flexChild">Number</div>
+    <div class="flexChild">Adress</div>
+        <div class="flexChild">Books</div>
+    </div>
+</section>
+</main>
+<script src="./js/admin-order.js"></script>
+<script src="./js/admin.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+</body>
+</html>
